@@ -16,18 +16,36 @@ export const App = ()=> {
   const titleStyle = {
     textAlign: "center",
     fontSize: "40px",
-    margin: "3px"
+    margin: "30px"
   }
   const SidebarStyle = {
     marginTop: "0px"
   }
 
   return (
-    <div className="App">
+    <div className="app">
     
-      <h1 style={contentStyle}>TITLE</h1>
-      <h1 style={titleStyle}>ROOM</h1>
-      <TailwindCss style={SidebarStyle}></TailwindCss>
+     
+     
+      <div class="main">
+        <div class="sidebar">
+        <h1 style={contentStyle}>TITLE</h1>
+        <ul class="sidemenu">
+          <li>HOME</li>
+          <li>SCHEDULE</li>
+          <li>CREATE</li>
+          <li>PROFILE</li>
+         </ul>
+        </div>
+
+        
+     
+        
+        <div class="content">
+          <h1 style={titleStyle}>ROOM</h1>
+        </div>
+      </div>
+      
     </div>
   );
 }
