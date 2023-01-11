@@ -23,6 +23,7 @@ export const App = ()=> {
   }
 
   return (
+    <>
     <div className="app">
     
      
@@ -37,16 +38,30 @@ export const App = ()=> {
           <li>PROFILE</li>
          </ul>
         </div>
-
+      
         
-     
+       
         
         <div class="content">
           <h1 style={titleStyle}>ROOM</h1>
+
+          <div class="container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>  
+</div>
+          
         </div>
+     
       </div>
       
     </div>
+    
+    <TailwindCss />
+    </>
   );
 }
 

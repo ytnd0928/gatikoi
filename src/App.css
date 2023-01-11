@@ -28,6 +28,10 @@
   text-align: center;
   letter-spacing:5px;
 }
+li:hover {
+  color: pink;
+  background-color: gray;
+}
 
 
 
@@ -51,3 +55,16 @@
  
 }
 
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px, 200px;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: gray;
+  text-align: center;
+}
