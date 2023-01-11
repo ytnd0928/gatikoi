@@ -46,12 +46,11 @@ export const App = ()=> {
           <h1 style={titleStyle}>ROOM</h1>
 
           <div class="container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>  
+          <p class="trim-image-to-circle">
+            
+         
+          </p>    
+          <p class="trim-image-to-circle2"></p>
 </div>
           
         </div>
